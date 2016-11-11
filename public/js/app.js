@@ -26,7 +26,7 @@ app.controller('MainCtrl', function($scope, $http) {
 
   // view favorites
   $scope.getFavorites = function() {
-  	$http.get("/favorites").success(function(data) {
+  	$http.get("https://shrouded-cliffs-32402.herokuapp.com/favorites").success(function(data) {
   		$scope.favorites = data;
   	})
   };
@@ -36,7 +36,7 @@ app.controller('MainCtrl', function($scope, $http) {
   	$http({
 			withCredentials: false,
 			method: 'POST',
-			url: '/favorites',
+			url: 'https://shrouded-cliffs-32402.herokuapp.com/favorites',
 			headers: {
    			'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8'
  			},
