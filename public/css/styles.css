@@ -1,0 +1,19 @@
+/* styles */
+.white_panel {
+	margin: 3px;
+	padding: 1em;
+	background-color: white;
+	box-shadow: rgba(181, 181, 181, 1) 0px 1px 0px;
+	border-radius: 3px;
+	border: 1px solid rgb(218, 218, 218);
+	position: relative;
+}
+
+div.star {
+	float: right;
+  margin-top: -40px;
+}
+
+.star i {
+	color: gold;
+}
