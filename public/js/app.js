@@ -36,7 +36,7 @@ app.controller('MainCtrl', function($scope, $http) {
   	$http({
 			withCredentials: false,
 			method: 'POST',
-			url: 'http://localhost:4567/favorites',
+			url: '/favorites',
 			headers: {
    			'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8'
  			},
